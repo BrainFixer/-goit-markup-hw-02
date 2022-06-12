@@ -9,15 +9,6 @@
   --secondary-font-family: "Raleway", sans-serif;
 }
 
-.active {
-  color: var(--accent-color) !important;
-}
-
-.active-button {
-  background-color: var(--accent-color) !important;
-  color: var(--main-bg-color) !important;
-}
-
 body {
   color: var(--main-color);
   font-family: var(--main-font-family);
@@ -357,4 +348,13 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+.active-button {
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
 }
