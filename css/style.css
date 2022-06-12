@@ -5,8 +5,8 @@
   --main-bg-color: #fff;
   --medium-bg-color: #f5f4fa;
   --dark-bg-color: #2f303a;
-  --main-font-family: 'Roboto', sans-serif;
-  --secondary-font-family: 'Raleway', sans-serif;
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
 }
 
 .active {
@@ -127,6 +127,11 @@ header {
   letter-spacing: 0.06em;
   font-weight: 700;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.slogan-button:hover {
+  transform: scale(1.05);
 }
 
 .slogan-button:active {
@@ -182,6 +187,14 @@ header {
   flex-direction: column;
   align-items: center;
   margin-bottom: 94px;
+}
+
+.jobs-item {
+  transition: all 0.3s ease;
+}
+
+.jobs-item:hover {
+  transform: scale(1.05);
 }
 
 .jobs-header,
