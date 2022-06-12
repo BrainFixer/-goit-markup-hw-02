@@ -350,11 +350,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.active {
-  color: var(--accent-color);
-}
-
 .active-button {
   background-color: var(--accent-color);
   color: var(--main-bg-color);
+}
+
+.active {
+  color: var(--accent-color);
 }
